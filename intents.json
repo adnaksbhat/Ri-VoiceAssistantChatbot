@@ -1,0 +1,39 @@
+{"intents": [
+
+
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello Ridhi!", "Good to see you again!", "Hi Ridhi, how can I help?"]
+      
+    },
+
+
+    {"tag": "exit",
+      "patterns": ["cya", "See you later Ridhi", "Goodbye", "I am Leaving", "Have a Good day Ridhi", "bye Ridhi", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+      
+    },
+
+
+    {"tag": "create_note",
+      "patterns": ["please create new note","new note","create a note","i want to create a note","note new"],
+      "responses": [""]
+      
+    },
+
+    {"tag": "add_todo",
+        "patterns": ["i want to add a to do","add a new to do","add a todo to my list","new item to my to do list","new to do"],
+        "responses": [""]
+        
+      },
+
+
+      {"tag": "show_todo",
+        "patterns": ["show my to do","what are my to do","what is on my to do list","show","display my to do"],
+        "responses": [""]
+        
+      }
+
+
+  ]
+  }
